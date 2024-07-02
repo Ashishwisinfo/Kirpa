@@ -183,8 +183,8 @@ footer .pxl-contact-info .pxl-item--inner:hover .pxl-item--icon {
     border: none !important;
   }
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .speciality_tab:nth-child(4) {
     margin-top: 15px;
   }
-}
+} */

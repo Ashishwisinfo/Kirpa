@@ -45,7 +45,7 @@
   .elementor-element.elementor-element-c7fa3f2
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-color: #fedd00;
+  background-color: var(--base-blue);
 }
 .elementor-3631 .elementor-element.elementor-element-c7fa3f2,
 .elementor-3631
@@ -112,7 +112,7 @@
   > .elementor-widget-container {
   border-style: solid;
   border-width: 0px 1px 0px 0px;
-  border-color: #000;
+  border-color: var(--base-white);
   border-radius: 0px 0px 0px 0px;
 }
 .elementor-bc-flex-widget
@@ -154,7 +154,7 @@
   margin: 0px 0px 0px 0px;
   border-style: solid;
   border-width: 0px 1px 0px 0px;
-  border-color: #000;
+  border-color: var(--base-white);
   border-radius: 0px 0px 0px 0px;
 }
 .elementor-bc-flex-widget
@@ -243,7 +243,7 @@
   line-height: 24px;
 }
 .elementor-3631 .elementor-element.elementor-element-8cd1a94 .pxl-link a:hover {
-  color: #f8c503;
+  color: var(--base-blue);
   font-family: "Rubik", Sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -265,7 +265,7 @@
   .pxl-link
   a:hover
   i {
-  color: #f8c503;
+  color: var(--base-blue);
 }
 .elementor-3631
   .elementor-element.elementor-element-44620b7
@@ -279,7 +279,7 @@
   line-height: 24px;
 }
 .elementor-3631 .elementor-element.elementor-element-76f2b17 .pxl-link a:hover {
-  color: #f8c503;
+  color: var(--base-blue);
   font-family: "Rubik", Sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -301,7 +301,7 @@
   .pxl-link
   a:hover
   i {
-  color: #f8c503;
+  color: var(--base-blue);
 }
 .elementor-3631 .elementor-element.elementor-element-42642ee .pxl-link a {
   color: #e7e7e7;
@@ -310,7 +310,7 @@
   line-height: 24px;
 }
 .elementor-3631 .elementor-element.elementor-element-42642ee .pxl-link a:hover {
-  color: #f8c503;
+  color: var(--base-blue);
   font-family: "Rubik", Sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -332,7 +332,7 @@
   .pxl-link
   a:hover
   i {
-  color: #f8c503;
+  color: var(--base-blue);
 }
 .elementor-3631 .elementor-element.elementor-element-b2b60b0 .pxl-link a {
   color: #e7e7e7;
@@ -341,7 +341,7 @@
   line-height: 24px;
 }
 .elementor-3631 .elementor-element.elementor-element-b2b60b0 .pxl-link a:hover {
-  color: #f8c503;
+  color: var(--base-blue);
   font-family: "Rubik", Sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -363,10 +363,10 @@
   .pxl-link
   a:hover
   i {
-  color: #f8c503;
+  color: var(--base-blue);
 }
 .elementor-3631 .elementor-element.elementor-element-2a4db5b .pxl-button .btn {
-  background-color: #fedd00;
+  background-color: var(--base-blue);
   border-radius: 10px 10px 10px 10px;
 }
 .elementor-3631
@@ -413,7 +413,7 @@
   font-size: 16px;
 }
 .elementor-3631 .elementor-element.elementor-element-1672974 .pxl-link a:hover {
-  color: #f8c503;
+  color: var(--base-blue);
 }
 .elementor-3631 .elementor-element.elementor-element-1672974 .pxl-link a i {
   margin-top: 10px;
@@ -450,7 +450,7 @@
   font-size: 16px;
 }
 .elementor-3631 .elementor-element.elementor-element-76fbefa .pxl-link a:hover {
-  color: #f8c503;
+  color: var(--base-blue);
 }
 .elementor-3631 .elementor-element.elementor-element-76fbefa .pxl-link a i {
   margin-top: 10px;
@@ -493,7 +493,7 @@
   font-size: 16px;
 }
 .elementor-3631 .elementor-element.elementor-element-618592b .pxl-link a:hover {
-  color: #f8c503;
+  color: var(--base-blue);
 }
 .elementor-3631 .elementor-element.elementor-element-618592b .pxl-link a i {
   margin-top: 10px;
@@ -559,7 +559,7 @@
   .elementor-element.elementor-element-4084b78
   .pxl-text-editor
   a {
-  color: #fedd00;
+  color: var(--base-blue);
 }
 .elementor-3631
   .elementor-element.elementor-element-4084b78
@@ -575,7 +575,7 @@
   color: #ffffff;
 }
 .elementor-3631 .elementor-element.elementor-element-5e5ed6f .pxl-link a:hover {
-  color: #fedd00;
+  color: var(--base-blue);
 }
 .elementor-3631 .elementor-element.elementor-element-5e5ed6f {
   width: auto;

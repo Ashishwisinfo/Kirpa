@@ -43,7 +43,7 @@
   .elementor-element.elementor-element-2374062
   .pxl-icon1
   a:hover {
-  color: #fedd00;
+  color: var(--base-blue);
 }
 .elementor-3199
   .elementor-element.elementor-element-2374062
@@ -61,7 +61,7 @@
   font-weight: 400;
 }
 .elementor-3199 .elementor-element.elementor-element-4a37d57 .pxl-link a:hover {
-  color: #fedd00;
+  color: var(--base-blue);
   font-size: 14px;
   font-weight: 400;
 }
@@ -76,7 +76,7 @@
   align-items: Center;
 }
 .elementor-3199 .elementor-element.elementor-element-4a37d57 .pxl-link a i {
-  color: #fedd00;
+  color: var(--base-blue);
   margin-top: 0px;
 }
 .elementor-3199
@@ -94,7 +94,7 @@
   font-weight: 400;
 }
 .elementor-3199 .elementor-element.elementor-element-57e7a17 .pxl-link a:hover {
-  color: #fedd00;
+  color: var(--base-blue);
   font-size: 14px;
   font-weight: 400;
 }
@@ -109,7 +109,7 @@
   align-items: Center;
 }
 .elementor-3199 .elementor-element.elementor-element-57e7a17 .pxl-link a i {
-  color: #fedd00;
+  color: var(--base-blue);
   margin-top: 0px;
 }
 .elementor-3199
@@ -126,13 +126,13 @@
   font-size: 14px;
 }
 .elementor-3199 .elementor-element.elementor-element-59bf831 .pxl-link a:hover {
-  color: #fedd00;
+  color: var(--base-blue);
 }
 .elementor-3199 .elementor-element.elementor-element-59bf831 .pxl-link li a {
   align-items: Center;
 }
 .elementor-3199 .elementor-element.elementor-element-59bf831 .pxl-link a i {
-  color: #fedd00;
+  color: var(--base-blue);
   margin-top: 0px;
 }
 .elementor-3199
@@ -214,7 +214,7 @@
   .pxl-menu-primary
   > li
   > a:hover {
-  color: #fedd00;
+  color: var(--base-blue);
 }
 .elementor-3199
   .elementor-element.elementor-element-2f8e03b
@@ -234,7 +234,7 @@
   .pxl-menu-primary
   > li
   > a.pxl-onepage-active {
-  color: #fedd00;
+  color: var(--base-blue);
 }
 .elementor-3199
   .elementor-element.elementor-element-2f8e03b
@@ -273,7 +273,7 @@
   > li
   > a.pxl-onepage-active
   .caseicon-angle-arrow-down {
-  color: #fedd00;
+  color: var(--base-blue);
 }
 .elementor-3199
   .elementor-element.elementor-element-2f8e03b
@@ -329,7 +329,7 @@
   .sub-menu
   li.current-menu-ancestor
   > a {
-  color: #fedd00;
+  color: var(--base-blue);
 }
 .elementor-3199
   .elementor-element.elementor-element-2f8e03b
@@ -394,7 +394,7 @@
   .pxl-contact-info
   .pxl-item--icon {
   color: #ffffff;
-  background-color: #fedd00;
+  background-color: var(--base-blue);
   width: 45px;
   height: 45px;
 }

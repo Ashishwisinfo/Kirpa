@@ -1,5 +1,17 @@
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --woocommerce: #7f54b3;
+  --wc-green: #7ad03a;
+  --wc-red: #a00;
+  --base-blue: #264c8c;
+  --base-white: #fff;
+}
+
+.header_wrapper_main {
+  position: fixed !important;
+  top: 0;
 }
 .header-wrapper {
   display: flex;
@@ -65,10 +77,23 @@ span.service_heading {
   text-align: center;
 }
 .text-white {
-  color: #fff;
+  color: #fff !important;
 }
 .fs-16 {
   font-size: 16px;
+}
+.text-underline{
+  text-decoration: underline !important;
+}
+.pb-70 {
+  padding-bottom: 70px;
+}
+.py-90{
+  padding-top: 90px !important;
+  padding-bottom: 90px !important;
+}
+.map-image{
+  height: 380px !important;
 }
 
 /* Start: Accordion CSS */
@@ -117,31 +142,44 @@ span.service_heading {
 }
 /* End: Accordion CSS */
 
-
 footer .pxl-contact-info .pxl-item--inner:hover .pxl-item--title,
 .pxl-item--inner:hover .pxl-item--subtitle {
   color: black;
 }
 footer .pxl-contact-info .pxl-item--inner:hover .pxl-item--icon {
-    background-color: unset;
+  background-color: unset;
   color: #000;
 }
 
-.about_section_wrapper .pxl-contact-info .yellow_background_inner:hover .pxl-item--title,
-.pxl-item--inner:hover .pxl-item--subtitle{
-    color: white;
-}
-.about_section_wrapper .yellow_background_inner:hover{
-    background-color: black;
+.footer_bottom_section{
+  background-color: var(--base-blue) !important;
 }
 
-.btn.btn-default:hover{
-    background-color: #000;
+.about_section_wrapper
+  .pxl-contact-info
+  .yellow_background_inner:hover
+  .pxl-item--title,
+.pxl-item--inner:hover .pxl-item--subtitle {
+  color: white;
+}
+.about_section_wrapper .yellow_background_inner:hover {
+  background-color: black;
 }
 
-.our_speciality_wrapper h5.pxl-item--title{
-    color: #000 !important;
+.btn.btn-default:hover {
+  background-color: #000;
 }
+
+.our_speciality_wrapper {
+  margin-top: 10px;
+}
+.our_speciality_wrapper h5.pxl-item--title {
+  color: #fff !important;
+}
+.pxl-item--description {
+  color: #fff;
+}
+
 @media screen and (max-width: 768px) {
   #pxl-header-default .pxl-header-branding img,
   #pxl-header-elementor .pxl-header-branding img {

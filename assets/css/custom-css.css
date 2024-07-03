@@ -96,6 +96,10 @@ span.service_heading {
   height: 380px !important;
 }
 
+/* .about-image{
+  max-height: 550px;
+} */
+
 /* Start: Accordion CSS */
 .accordion {
   background-color: #eee;

@@ -235,7 +235,19 @@ footer .pxl-contact-info .pxl-item--inner:hover .pxl-item--icon {
   }
 }
 @media screen and (max-width: 768px) {
+  .banner_wrapper{
+    top: 0 !important;
+  }
   .speciality_tab:nth-child(4) {
     margin-top: 15px;
+  }
+  #pxl-header-mobile .elementor-widget-pxl_contact_info .pxl-contact-info1 .pxl-item--inner{
+    padding: 12px 25px 12px 8px !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .elementor-218 .elementor-element.elementor-element-c2bd583 {
+    bottom: 10px;
+    left: 30px;
   }
 }

@@ -244,6 +244,9 @@ footer .pxl-contact-info .pxl-item--inner:hover .pxl-item--icon {
   #pxl-header-mobile .elementor-widget-pxl_contact_info .pxl-contact-info1 .pxl-item--inner{
     padding: 12px 25px 12px 8px !important;
   }
+  #pxl-header-mobile .elementor-widget-pxl_contact_info .pxl-contact-info1 .pxl-item--inner:hover{
+    background-color: #000 !important;
+  }
 }
 @media screen and (max-width: 992px) {
   .elementor-218 .elementor-element.elementor-element-c2bd583 {

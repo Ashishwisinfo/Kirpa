@@ -26,16 +26,18 @@ for (i = 0; i < accordion_btns.length; i++) {
 
 document.addEventListener('DOMContentLoaded', function () {
     window.addEventListener('scroll', function () {
-        const scrollTop = document.documentElement.scrollTop || window.scrollY;
-        const windowHeight = document.documentElement.clientHeight;
+        const scrollTop = document.documentElement.scrollTop || window.pageYOffset;
+        const windowHeight = window.innerHeight;
         const documentHeight = document.documentElement.scrollHeight;
 
         const element = document.querySelector('.pxl-scroll-top.pxl-on');
 
-        if (scrollTop + windowHeight === documentHeight) {
-            element.style.bottom = '100px';
-        } else {
-            element.style.bottom = '30px';
+        if (element) { // Check if the element exists
+            if (scrollTop + windowHeight >= documentHeight - 1) { // Use >= to account for potential off-by-one issues
+                element.style.bottom = '100px';
+            } else {
+                element.style.bottom = '30px';
+            }
         }
     });
 });

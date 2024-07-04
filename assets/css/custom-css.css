@@ -251,6 +251,11 @@ footer .pxl-contact-info .pxl-item--inner:hover .pxl-item--icon {
     background-color: #000 !important;
   }
 }
+@media screen and (min-width: 768px) {
+  .mt-md-0{
+    margin-top: 0 !important; 
+  }
+}
 @media screen and (max-width: 992px) {
   .elementor-218 .elementor-element.elementor-element-c2bd583 {
     bottom: 10px;

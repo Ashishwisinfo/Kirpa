@@ -70,6 +70,15 @@ span.service_heading {
 .mt-0 {
   margin-top: 0 !important;
 }
+.mt-2 {
+  margin-top: .5rem !important;
+}
+.mb-0{
+  margin-bottom: 0 !important;
+}
+.mb_75{
+  margin-bottom: .75rem !important;
+}
 .mb-3 {
   margin-bottom: 1rem !important;
 }

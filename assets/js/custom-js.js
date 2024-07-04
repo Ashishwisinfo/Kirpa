@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const element = document.querySelector('.pxl-scroll-top.pxl-on');
 
         if (element) { // Check if the element exists
-            if (scrollTop + windowHeight >= documentHeight - 100) { // Use >= to account for potential off-by-one issues
+            if (scrollTop + windowHeight >= documentHeight - 250) { // Use >= to account for potential off-by-one issues
                 element.style.bottom = '100px';
             } else {
                 element.style.bottom = '30px';
